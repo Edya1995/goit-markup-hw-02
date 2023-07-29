@@ -199,13 +199,13 @@ body{
     background: var(--navyblue, #2E2F42);
     
 }
-.footer-logo-link{
+.link{
     color: var(--iris, #4D5AE5);
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 21px; /* 116.667% */
+    line-height: 1.17; /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
@@ -216,7 +216,7 @@ body{
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 21px; /* 116.667% */
+    line-height: 1.17; /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
     

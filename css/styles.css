@@ -16,7 +16,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#2e2f42;
-    background-color: #FFFFFF
+    
 }
 .link{
     color: var(--iris, #4D5AE5);
@@ -200,6 +200,7 @@ body{
     font-weight: 500;
     line-height: 24px; /* 120% */
     letter-spacing: 0.4px;
+    background-color: #FFFFFF;
 }
 .team-list-caption{
     color: var(--slate, #434455);
@@ -211,6 +212,7 @@ body{
     font-weight: 400;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
+    background-color: #FFFFFF;
 }
 /* Footer Section */
 .footer_section{

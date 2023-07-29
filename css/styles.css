@@ -9,6 +9,14 @@ body{
     background-color:#FFFFFF;
 }
 /* Header Section */
+.list{
+    list-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
 .link{
     color: var(--iris, #4D5AE5);
     font-family: "Raleway", sans-serif;
@@ -29,6 +37,7 @@ body{
     line-height: 1.17; /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    text-decoration: none
 }
 .header-description{
     color: var(--navyblue, #2E2F42);

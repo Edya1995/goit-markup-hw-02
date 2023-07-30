@@ -75,7 +75,7 @@ body{
 }
 /* Hero Section */
 .hero_section{
-    color: var(--row-list-headline-color);
+    background-color: var(--row-list-headline-color);
 }
 .hero_section_subtitle{
     font-size: 56px;
@@ -97,4 +97,50 @@ body{
 .hero_button_link:hover,
 .hero_button_link:focus{
     background-color: var(--button-hover-focus-background-color)
+}
+/* Work Section */
+.work-section-subtittle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--row-list-headline-color);
+}
+.work-list-caption{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+/* Description Section */
+.description-subtitle{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--row-list-headline-color);
+}
+/* Team Section */
+.list-team_section{
+    background-color: #F4F4FD;
+}
+.team-subtitle-headline{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--row-list-headline-color);
+}
+.team-list-headline{
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--row-list-headline-color);
+}
+.team-list-caption{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }

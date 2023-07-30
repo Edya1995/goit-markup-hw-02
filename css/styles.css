@@ -20,7 +20,16 @@ body{
     text-decoration: none;
 }
 /* Header Section */
-
+.header-logo{
+    color: var(--navyblue, #2E2F42);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
 /* Hero Section */
 .hero_section{
     flex-shrink: 0;

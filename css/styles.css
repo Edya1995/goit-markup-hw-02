@@ -2,6 +2,7 @@
     /* Colors */
     --primary-color:#434455;
     --light-bg:#FFFFFF;
+    --hover-focus-color: #404bbf;
 }
 body{
     font-family: "Roboto", sans-serif;
@@ -19,16 +20,66 @@ body{
     text-transform: uppercase;
     text-decoration: none;
 }
+.list{
+    list-style: none;
+}
 /* Header Section */
-.header-logo{
-    color: var(--navyblue, #2E2F42);
-    font-family: Raleway;
+.logo-link{
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 21px; /* 116.667% */
-    letter-spacing: 0.54px;
+    line-height: 1.17; /* 116.667% */
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
+}
+.logo-second{
+    color: #2E2F42;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17; /* 116.667% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav-link{
+    color: #2e2f42;
+
+    /* Body Medium */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:focus{
+   color: var(--hover-focus-color, #404bbf );
+}
+.address{
+    font-style: normal;
+}
+.contact-link{
+    color: var(--primary-color, #434455);
+
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.contact-link:hover,
+.contact-link:focus{
+    color: var(--hover-focus-color, #404bbf);
 }
 /* Hero Section */
 .hero_section{

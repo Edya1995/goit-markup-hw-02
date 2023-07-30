@@ -151,3 +151,32 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+/* filters Section */
+.filters-button-link{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--text-button-color);
+    background-color: var(--button-background-color);
+    cursor: pointer;
+}
+.filters-button-link:hover,
+.filters-button-link:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer;
+}
+.row-list-headline{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--row-list-headline-color);
+}
+.row-list-desc{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+}

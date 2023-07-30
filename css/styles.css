@@ -29,10 +29,6 @@ body{
     list-style: none;
 } 
 /* Header Section */
-.logo-link{
-    color: var(--text-button-color, #4d5ae5);
-    text-decoration: none;
-}
 .logo-second{
     color: var(--row-list-headline-color, #2e2f42);
 }

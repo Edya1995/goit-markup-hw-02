@@ -85,6 +85,7 @@ body{
     color: #ffffff
 }
 .hero_button_link{
+    color: #ffffff;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -96,8 +97,4 @@ body{
 .hero_button_link:hover,
 .hero_button_link:focus{
     background-color: var(--button-hover-focus-background-color)
-}
-.hero-button-description{
-    color: #ffffff;
-    cursor: pointer
 }

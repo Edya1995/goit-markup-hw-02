@@ -20,57 +20,7 @@ body{
     text-decoration: none;
 }
 /* Header Section */
-.header-logo{
-    color: #2E2F42;
-}
-.header-nav-link{
-    color: var(--navyblue, #2E2F42);
 
-    /* Body Medium */
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
-    text-decoration: none;
-}
-.header-nav-link:hover,
-.header-nav-link:focus{
-    color: #404bbf;
-
-    /* Body Medium */
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
-}
-.adress-list-desc{
-    color: var(--slate, #434455);
-
-    /* Body */
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
-    text-decoration: none;
-}
-.adress-list-desc:hover,
-.adress-list-desc:focus{
-    color: var(--ocean, #404BBF);
-
-    /* Body */
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
-}
 /* Hero Section */
 .hero_section{
     flex-shrink: 0;

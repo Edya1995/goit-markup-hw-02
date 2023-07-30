@@ -27,6 +27,7 @@ body{
 }
 .list{
     list-style: none;
+    background-color: #FFFFFF;
 } 
 /* Header Section */
 .logo-link{
@@ -110,6 +111,13 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
 
+}
+.work-list-headline{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--row-list-headline-color);
 }
 /* Description Section */
 .description-subtitle{

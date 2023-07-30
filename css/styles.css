@@ -169,6 +169,7 @@ body{
     cursor: pointer;
 }
 .row-list-headline{
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -176,6 +177,7 @@ body{
     color: var(--row-list-headline-color);
 }
 .row-list-desc{
+    font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;

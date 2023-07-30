@@ -20,7 +20,7 @@ body{
     text-decoration: none;
 }
 /* Header Section */
-.header-logo-link{
+.header-logo{
     color: #2E2F42;
 }
 .header-nav-link{
@@ -37,7 +37,7 @@ body{
 }
 .header-nav-link:hover,
 .header-nav-link:focus{
-    color: var(--ocean, #404BBF);
+    color: #404bbf;
 
     /* Body Medium */
     font-family: "Roboto", sans-serif;

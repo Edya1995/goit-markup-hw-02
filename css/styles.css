@@ -3,6 +3,11 @@
     --primary-color:#434455;
     --light-bg:#FFFFFF;
     --hover-focus-color: #404bbf;
+    --text-button-color: #4d5ae5;
+    --button-background-color: #F4F4FD;
+    --button-hover-focus-color: #FFFFFF;
+    --button-hover-focus-background-color: #404BBF;
+    --row-list-headline-color: #2e2f42;
 }
 body{
     font-family: "Roboto", sans-serif;
@@ -238,61 +243,42 @@ body{
 }
 /* Filters */
 .filters-button-link{
+    color: var(--text-button-color,#4d5ae5);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     justify-content: center;
     border: 1px solid var(--cornflower, #E7E9FC);
-    background: var(--cloud, #F4F4FD);
+    background: var(--button-background-color, #F4F4FD);
 }
 .filters-button-link:hover,
 .filters-button-link:focus{
-    background: var(--ocean, #404BBF);
-    cursor: pointer;
-}
-.filters-button{
-    color: var(--iris, #4D5AE5);
-    text-align: center;
-    
-    /* Button Text */
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.64px;
-}
-.filters-button:hover,
-.filters-button:focus{
-    color: var(--white, #FFF);
-    text-align: center;
-    
-    /* Button Text */
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.64px;
+    color: var(--button-hover-focus-color, #FFFFFF);
+    background: var(--button-hover-focus-background-color, #404BBF);
     cursor: pointer;
 }
 /* Row section 1 2 3 */
 .row-list-headline{
-    color: var(--navyblue, #2E2F42);
+    color: var(--row-list-headline-color, #2e2f42);
 
     /* Header 3 */
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 120% */
-    letter-spacing: 0.4px;
+    line-height: 1.2; /* 120% */
+    letter-spacing: 0.02em;
 }
 .row-list-desc{
-    color: var(--slate, #434455);
+    color: var(--primary-color, #434455);
 
     /* Body */
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
 }

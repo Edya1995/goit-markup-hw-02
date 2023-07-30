@@ -61,3 +61,15 @@ body{
 .contact-link:focus{
     color: #404BBF;
 }
+/* Footer Section */
+.footer_section{
+    background-color: var(--row-list-headline-color)
+}
+.footer-logo{
+    color: var(--button-background-color);
+}
+.footer-desc{
+    line-height: 1.5;
+    color: var(--button-background-color);
+    letter-spacing: 0.02em;
+}

@@ -151,6 +151,9 @@ color: #404BBF;
     background-color: #FFFFFF;
 }
 /* filters Section */
+.link{
+    text-decoration: none;
+}
 .filters-button-link{
     font-family: "Roboto", sans-serif;
     font-weight: 500;

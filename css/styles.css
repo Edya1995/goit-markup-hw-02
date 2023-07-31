@@ -44,7 +44,7 @@ body{
 .nav-link:focus{
     color: var(--button-hover-focus-background-color);
 }
-.address-link{
+.address{
     font-style: normal
 }
 .contact-link{
@@ -146,9 +146,6 @@ body{
 .team-list-caption{
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-.team-list-item{
-    background-color: #FFFFFF;
 }
 /* filters Section */
 .filters-button-link{

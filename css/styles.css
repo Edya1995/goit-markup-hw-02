@@ -29,6 +29,9 @@ body{
     list-style: none;
 } 
 /* Header Section */
+.header-navigation-link{
+    text-decoration:none;
+}
 .logo-second{
     color: var(--row-list-headline-color, #2e2f42);
 }
@@ -44,7 +47,7 @@ body{
 .nav-link:focus{
     color: var(--button-hover-focus-background-color);
 }
-.address{
+.address-link{
     font-style: normal
 }
 .contact-link{
